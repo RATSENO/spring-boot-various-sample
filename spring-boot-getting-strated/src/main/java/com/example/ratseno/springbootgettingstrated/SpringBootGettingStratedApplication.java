@@ -14,12 +14,4 @@ public class SpringBootGettingStratedApplication {
         springApplication.setWebApplicationType(WebApplicationType.NONE);
         springApplication.run(args);
     }
-
-    @Bean
-    public Holoman holoman(){
-	    Holoman holoman = new Holoman();
-	    holoman.setName("ratseno");
-	    holoman.setHowLong(30);
-	    return holoman;
-    }
 }
