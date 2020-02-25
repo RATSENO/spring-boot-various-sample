@@ -7,10 +7,12 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.core.env.Environment;
+import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(properties = "ratseno.name=test")
+@SpringBootTest
+@TestPropertySource(properties = "ratseno.name=test2")
 public class SpringBootExternalizedConfigurationApplicationTests {
 
 	@Autowired
@@ -21,7 +23,7 @@ public class SpringBootExternalizedConfigurationApplicationTests {
 	@Test
 	public void contextLoads() {
 		assertThat(environment.getProperty("ratseno.name"))
-				.isEqualTo("test");
+				.isEqualTo("test2");
 	}
 
 }
