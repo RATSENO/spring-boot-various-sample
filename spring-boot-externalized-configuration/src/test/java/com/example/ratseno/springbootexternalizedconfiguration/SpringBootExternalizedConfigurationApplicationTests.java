@@ -16,10 +16,12 @@ public class SpringBootExternalizedConfigurationApplicationTests {
 	@Autowired
 	Environment environment;
 
+	//test/resources/application.properties 파일이 있을경우
+	//main/resources/application.properties 파일을 엎어쓴다.
 	@Test
 	public void contextLoads() {
 		assertThat(environment.getProperty("ratseno.name"))
-				.isEqualTo("onestar");
+				.isEqualTo("ratseno");
 	}
 
 }
