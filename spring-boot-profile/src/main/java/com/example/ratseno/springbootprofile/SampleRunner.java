@@ -20,6 +20,7 @@ public class SampleRunner implements ApplicationRunner {
         System.out.println("========================");
         System.out.println(hello);
         System.out.println(environment.getProperty("ratseno.name"));
+        System.out.println(environment.getProperty("ratseno.fullName"));
         System.out.println("========================");
     }
 }
