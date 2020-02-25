@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class SampleRunner implements ApplicationRunner {
 
-    @Value("${ratseno.name}")
+    @Value("${ratseno.fullName}")
     private String name;
 
     @Value("${ratseno.age}")
