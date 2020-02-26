@@ -8,3 +8,28 @@
 2020-02-26 10:35:25.403  INFO 15304 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
 2020-02-26 10:35:25.719  INFO 15304 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2020-02-26 10:35:25.723  INFO 15304 --- [main] c.e.r.s.SpringBootLoggerApplication      : Started SpringBootLoggerApplication in 6.348 seconds (JVM running for 7.439)
+2020-02-26 10:36:47.850  INFO 16692 --- [main] c.e.r.s.SpringBootLoggerApplication      : Starting SpringBootLoggerApplication on LAPTOP-7PIAGL1I with PID 16692 (C:\dev\project\spring-boot-various-sample\spring-boot-logger\target\classes started by User in C:\dev\project\spring-boot-various-sample\spring-boot-logger)
+2020-02-26 10:36:47.863 DEBUG 16692 --- [main] c.e.r.s.SpringBootLoggerApplication      : Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-26 10:36:47.864  INFO 16692 --- [main] c.e.r.s.SpringBootLoggerApplication      : No active profile set, falling back to default profiles: default
+2020-02-26 10:36:51.277  INFO 16692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-02-26 10:36:51.290  INFO 16692 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-26 10:36:51.291  INFO 16692 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-26 10:36:51.448  INFO 16692 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-26 10:36:51.449  INFO 16692 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3471 ms
+2020-02-26 10:36:51.667  INFO 16692 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-26 10:36:51.878  INFO 16692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-26 10:36:51.884  INFO 16692 --- [main] c.e.r.s.SpringBootLoggerApplication      : Started SpringBootLoggerApplication in 5.085 seconds (JVM running for 5.96)
+2020-02-26 10:38:52.596  INFO 21032 --- [main] c.e.r.s.SpringBootLoggerApplication      : Starting SpringBootLoggerApplication on LAPTOP-7PIAGL1I with PID 21032 (C:\dev\project\spring-boot-various-sample\spring-boot-logger\target\classes started by User in C:\dev\project\spring-boot-various-sample\spring-boot-logger)
+2020-02-26 10:38:52.601 DEBUG 21032 --- [main] c.e.r.s.SpringBootLoggerApplication      : Running with Spring Boot v2.2.4.RELEASE, Spring v5.2.3.RELEASE
+2020-02-26 10:38:52.603  INFO 21032 --- [main] c.e.r.s.SpringBootLoggerApplication      : No active profile set, falling back to default profiles: default
+2020-02-26 10:38:56.144  INFO 21032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-02-26 10:38:56.158  INFO 21032 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-26 10:38:56.158  INFO 21032 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-26 10:38:56.303  INFO 21032 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-02-26 10:38:56.303  INFO 21032 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3557 ms
+2020-02-26 10:38:56.556  INFO 21032 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-26 10:38:56.803  INFO 21032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-26 10:38:56.806  INFO 21032 --- [main] c.e.r.s.SpringBootLoggerApplication      : Started SpringBootLoggerApplication in 5.281 seconds (JVM running for 6.533)
+2020-02-26 10:38:56.807  INFO 21032 --- [main] c.e.r.springbootlogger.SamplerRunner     : ============================
+2020-02-26 10:38:56.808  INFO 21032 --- [main] c.e.r.springbootlogger.SamplerRunner     : hello
+2020-02-26 10:38:56.808  INFO 21032 --- [main] c.e.r.springbootlogger.SamplerRunner     : ============================
