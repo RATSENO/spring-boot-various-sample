@@ -13,8 +13,8 @@ public class SamplerRunner implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        logger.info("============================");
-        logger.info("hello");
-        logger.info("============================");
+        logger.debug("============================");
+        logger.debug("hello");
+        logger.debug("============================");
     }
 }
